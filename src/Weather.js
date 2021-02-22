@@ -4,6 +4,8 @@ import Overview from "./Overview";
 import OtherDescription from "./OtherDescription";
 import Footer from "./Footer";
 
+import "./styles.css";
+
 export default function Weather() {
   let weatherData = {
     temperature: 30,
