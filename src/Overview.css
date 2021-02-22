@@ -1,0 +1,10 @@
+.Overview h1 {
+  font-size: 44px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.Overview small {
+  font-size: 14px;
+  font-style: italic;
+}

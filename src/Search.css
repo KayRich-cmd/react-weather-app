@@ -1,0 +1,20 @@
+.Search input.form-input-style {
+  border-radius: 50px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  opacity: 0.4;
+}
+
+.Search a.search {
+  background: #757575;
+  border: 1px solid #757575;
+  color: #ffffff;
+  transition: all 200ms ease-in-out;
+}
+
+.Search a.search:hover {
+  background: #ffffff;
+  border: 1px solid #757575;
+  color: #757575;
+  cursor: pointer;
+}
