@@ -15,10 +15,10 @@ export default function Search() {
             />
           </div>
           <div className="col-4">
-            <a className="btn btn-primary search" href="/" role="button">
+            <a className="btn btn-secondary" href="/" role="button">
               Search
             </a>
-            <a className="btn btn-primary search" href="/" role="button">
+            <a className="btn btn-secondary" href="/" role="button">
               <i className="fas fa-map-marker-alt"></i>
             </a>
           </div>

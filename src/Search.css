@@ -5,14 +5,14 @@
   opacity: 0.4;
 }
 
-.Search a.search {
+.Search a.btn-secondary {
   background: #757575;
   border: 1px solid #757575;
   color: #ffffff;
   transition: all 200ms ease-in-out;
 }
 
-.Search a.search:hover {
+.Search a.btn-secondary:hover {
   background: #ffffff;
   border: 1px solid #757575;
   color: #757575;
