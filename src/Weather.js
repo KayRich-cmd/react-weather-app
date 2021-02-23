@@ -5,6 +5,7 @@ import OtherDescription from "./OtherDescription";
 import Footer from "./Footer";
 
 import "./styles.css";
+import "./Weather.css";
 
 export default function Weather() {
   let weatherData = {

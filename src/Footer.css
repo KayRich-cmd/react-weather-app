@@ -1,4 +1,17 @@
 .Footer {
   text-align: center;
-  margin-bottom: 20px;
+}
+
+.Footer a.btn-secondary {
+  background: #757575;
+  border: 1px solid #757575;
+  color: #ffffff;
+  transition: all 200ms ease-in-out;
+}
+
+.Footer a.btn-secondary:hover {
+  background: #ffffff;
+  border: 1px solid #757575;
+  color: #757575;
+  cursor: pointer;
 }

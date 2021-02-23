@@ -3,9 +3,9 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="Footer">
+    <footer className="Footer mt-3">
       <a
-        className="btn btn-primary search"
+        className="btn btn-secondary"
         href="https://github.com/KayRich-cmd/weather-app-project"
         target="_blank"
         rel="noreferrer"
