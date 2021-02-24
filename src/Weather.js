@@ -11,7 +11,7 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="Weather">
-      <div className="card mt-5">
+      <div className="card">
         <div className="card-body">
           <Search />
           <Overview />

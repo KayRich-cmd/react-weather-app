@@ -1,4 +1,5 @@
 import React from "react";
+import "./CurrentWeather.css";
 
 export default function CurrentWeather() {
   let weatherData = {
@@ -16,7 +17,7 @@ export default function CurrentWeather() {
 
         <span className="current-weather">{weatherData.temperature}</span>
         <span className="unit-type">
-          <a href="/">°C</a> |<a href="/">°F</a>
+          <a href="/">°C</a> |<a href="/"> °F</a>
         </span>
       </div>
     </div>
