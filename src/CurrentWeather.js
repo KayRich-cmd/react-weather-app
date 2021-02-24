@@ -9,8 +9,8 @@ export default function CurrentWeather() {
   };
 
   return (
-    <div className="row current-conditions">
-      <div className="col-5">
+    <div className="row">
+      <div className="col">
         <span className="current-weather current-weather-icon">
           <img src={weatherData.imgUrl} alt={weatherData.description} />
         </span>

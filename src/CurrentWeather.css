@@ -1,3 +1,9 @@
+.CurrentWeather span.unit-type {
+  position: relative;
+  bottom: 30px;
+  left: 5px;
+}
+
 .CurrentWeather a {
   text-decoration: none;
   color: #757575;
