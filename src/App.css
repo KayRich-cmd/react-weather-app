@@ -1,3 +1,4 @@
 ul {
+  display: inline-table;
   list-style: none;
 }
