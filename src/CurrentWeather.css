@@ -9,7 +9,7 @@
 
 .CurrentWeather span {
   font-size: 120px;
-  color: #ffffff;
+  color: #ffc107;
 }
 
 .CurrentWeather span.unit-type {

@@ -1,4 +1,8 @@
+.OtherDescription {
+  font-size: 30px;
+}
+
 .OtherDescription span.other-description-label {
-  font-weight: 700;
-  color: #9900f1;
+  font-weight: 800;
+  color: #ffffff;
 }
