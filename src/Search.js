@@ -19,7 +19,11 @@ export default function Search() {
             </a>
           </div>
           <div className="col-auto">
-            <a className="btn btn-secondary" href="/" role="button">
+            <a
+              className="btn btn-secondary current-location-button"
+              href="/"
+              role="button"
+            >
               <i className="fas fa-map-marker-alt"></i>
             </a>
           </div>

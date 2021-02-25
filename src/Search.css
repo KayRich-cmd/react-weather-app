@@ -18,3 +18,8 @@
   color: #757575;
   cursor: pointer;
 }
+
+.Search .current-location-button {
+  position: relative;
+  right: 25px;
+}
