@@ -1,18 +1,3 @@
 ul {
   list-style: none;
 }
-
-.App a {
-  text-decoration: none;
-  color: #757575;
-  transition: all 200ms ease-in-out;
-}
-
-.App a:hover {
-  color: #ffffff;
-  cursor: pointer;
-}
-
-a.active {
-  color: #212121;
-}

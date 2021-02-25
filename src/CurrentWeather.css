@@ -1,16 +1,37 @@
+.CurrentWeather {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.CurrentWeather img {
+  width: 85px;
+}
+
+.CurrentWeather span {
+  font-size: 120px;
+  color: #ffffff;
+}
+
 .CurrentWeather span.unit-type {
+  font-size: 40px;
   position: relative;
-  bottom: 30px;
-  left: 5px;
+  left: 20px;
+  bottom: 60px;
 }
 
 .CurrentWeather a {
   text-decoration: none;
   color: #757575;
   transition: all 200ms ease-in-out;
+  font-size: 40px;
+  position: relative;
 }
 
 .CurrentWeather a:hover {
   color: #ffffff;
   cursor: pointer;
+}
+
+.CurrentWeather a.active {
+  color: #212121;
 }

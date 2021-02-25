@@ -9,17 +9,16 @@ export default function CurrentWeather() {
   };
 
   return (
-    <div className="row">
-      <div className="col">
-        <span className="current-weather current-weather-icon">
+    <div className="CurrentWeather">
+      <div className="row">
+        <div className="col-12">
           <img src={weatherData.imgUrl} alt={weatherData.description} />
-        </span>
-
-        <span className="current-weather">{weatherData.temperature}</span>
-        <span className="unit-type">
-          <a href="/">°C</a> |<a href="/"> °F</a>
-        </span>
+        </div>
       </div>
+      <span>{weatherData.temperature}°</span>
+      <span className="unit-type">
+        <a href="/">C</a> |<a href="/"> F</a>
+      </span>
     </div>
   );
 }
