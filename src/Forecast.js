@@ -4,13 +4,42 @@ export default function Forecast() {
   return (
     <div className="Forecast">
       <h2>Bloop from Forecast</h2>
-      <div className="row">
-        <div className="col-2">Time 1</div>
-        <div className="col-2">Time 2</div>
-        <div className="col-2">Time 3</div>
-        <div className="col-2">Time 4</div>
-        <div className="col-2">Time 5</div>
-      </div>
+
+      <br />
+      <table className="table table-borderless">
+        <thead>
+          <tr>
+            <th scope="col">Time 1</th>
+            <th scope="col">Time 2</th>
+            <th scope="col">Time 3</th>
+            <th scope="col">Time 4</th>
+            <th scope="col">Time 5</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Icon</td>
+            <td>Icon</td>
+            <td>Icon</td>
+            <td>Icon</td>
+            <td>Icon</td>
+          </tr>
+          <tr>
+            <td>Temp°C</td>
+            <td>Temp°C</td>
+            <td>Temp°C</td>
+            <td>Temp°C</td>
+            <td>Temp°C</td>
+          </tr>
+          <tr>
+            <td>Description</td>
+            <td>Description</td>
+            <td>Description</td>
+            <td>Description</td>
+            <td>Description</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }
