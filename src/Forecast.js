@@ -3,17 +3,33 @@ import React from "react";
 import "./Forecast.css";
 
 export default function Forecast() {
-  let forecastData = {
-    imgUrl: {
-      hour1: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
-      hour2: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
-      hour3: "https://ssl.gstatic.com/onebox/weather/48/sunny.png",
-      hour4: "https://ssl.gstatic.com/onebox/weather/48/rain.png",
-      hour5: "https://ssl.gstatic.com/onebox/weather/48/rain.png",
+  let forecastData = [
+    {
+      imgUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
+      temperature: 30,
+      description: "Partly Cloudy",
     },
-    temperature: 3,
-    description: "Partly Cloudy",
-  };
+    {
+      imgUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
+      temperature: 13,
+      description: "Partly Cloudy",
+    },
+    {
+      imgUrl: "https://ssl.gstatic.com/onebox/weather/48/sunny.png",
+      temperature: 20,
+      description: "Sunny",
+    },
+    {
+      imgUrl: "https://ssl.gstatic.com/onebox/weather/48/rain.png",
+      temperature: 20,
+      description: "Rain",
+    },
+    {
+      imgUrl: "https://ssl.gstatic.com/onebox/weather/48/rain.png",
+      temperature: 18,
+      description: "Rain",
+    },
+  ];
 
   return (
     <div className="Forecast">
@@ -34,48 +50,48 @@ export default function Forecast() {
           <tr>
             <td>
               <img
-                src={forecastData.imgUrl.hour1}
-                alt={forecastData.description}
+                src={forecastData[0].imgUrl}
+                alt={forecastData[0].description}
               />
             </td>
             <td>
               <img
-                src={forecastData.imgUrl.hour2}
-                alt={forecastData.description}
+                src={forecastData[1].imgUrl}
+                alt={forecastData[1].description}
               />
             </td>
             <td>
               <img
-                src={forecastData.imgUrl.hour3}
-                alt={forecastData.description}
+                src={forecastData[2].imgUrl}
+                alt={forecastData[2].description}
               />
             </td>
             <td>
               <img
-                src={forecastData.imgUrl.hour4}
-                alt={forecastData.description}
+                src={forecastData[3].imgUrl}
+                alt={forecastData[3].description}
               />
             </td>
             <td>
               <img
-                src={forecastData.imgUrl.hour5}
-                alt={forecastData.description}
+                src={forecastData[4].imgUrl}
+                alt={forecastData[4].description}
               />
             </td>
           </tr>
           <tr>
-            <td>{forecastData.temperature}°C</td>
-            <td>{forecastData.temperature}°C</td>
-            <td>{forecastData.temperature}°C</td>
-            <td>{forecastData.temperature}°C</td>
-            <td>{forecastData.temperature}°C</td>
+            <td>{forecastData[0].temperature}°C</td>
+            <td>{forecastData[1].temperature}°C</td>
+            <td>{forecastData[2].temperature}°C</td>
+            <td>{forecastData[3].temperature}°C</td>
+            <td>{forecastData[4].temperature}°C</td>
           </tr>
           <tr>
-            <td>{forecastData.description}</td>
-            <td>{forecastData.description}</td>
-            <td>{forecastData.description}</td>
-            <td>{forecastData.description}</td>
-            <td>{forecastData.description}</td>
+            <td>{forecastData[0].description}</td>
+            <td>{forecastData[1].description}</td>
+            <td>{forecastData[2].description}</td>
+            <td>{forecastData[3].description}</td>
+            <td>{forecastData[4].description}</td>
           </tr>
         </tbody>
       </table>
