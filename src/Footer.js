@@ -11,7 +11,7 @@ export default function Footer() {
         rel="noreferrer"
         role="button"
       >
-        GitHub Code by Kay Richardson
+        GitHub Repo by Kay Richardson
       </a>
     </footer>
   );
