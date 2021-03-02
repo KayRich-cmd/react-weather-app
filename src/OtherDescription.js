@@ -3,20 +3,16 @@ import React from "react";
 import "./OtherDescription.css";
 
 export default function OtherDescription() {
-  let weatherData = {
-    humidity: 40,
-    wind: 3,
-  };
   return (
     <div className="OtherDescription">
       <ul>
         <li>
           <span className="other-description-label"> Humidity:</span>{" "}
-          <span>{weatherData.humidity}%</span>
+          <span>--%</span>
         </li>
         <li>
           <span className="other-description-label"> Wind Speed:</span>{" "}
-          <span>{weatherData.wind}</span> km/h
+          <span>--</span> km/h
         </li>
       </ul>
     </div>
