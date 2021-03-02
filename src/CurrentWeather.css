@@ -8,12 +8,12 @@
 }
 
 .CurrentWeather span {
-  font-size: 120px;
-  color: #ffc107;
+  font-size: 140px;
+  color: #e9af03e0;
 }
 
 .CurrentWeather span.unit-type {
-  font-size: 40px;
+  font-size: 50px;
   position: relative;
   left: 20px;
   bottom: 60px;
