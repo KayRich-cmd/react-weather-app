@@ -5,7 +5,7 @@ export default function CurrentWeather() {
   let weatherData = {
     temperature: 30,
     description: "Clear",
-    imgUrl: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
+    imgUrl: "http://openweathermap.org/img/wn/10d@2x.png",
   };
 
   return (
