@@ -11,6 +11,7 @@ export default function Search() {
               type="search"
               className="form-control form-input-style"
               placeholder="Need A Coat Today? (Enter City Name)"
+              autoFocus="on"
             />
           </div>
           <div className="col-auto">
